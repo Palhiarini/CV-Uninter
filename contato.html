@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Informações dos sites com os links de navegação, vai aparecer em todas as páginas do site -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="experiencias.html">Experiências</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área principal da página com formulário de informações básicas -->
+    <main>
+        <h1>Fale Comigo</h1>
+        <form action="#" method="post">
+            <!-- Campo para a pessoa preencher o nome  -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <!-- Campo para a pessoa colocar o e-mail  -->
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <!-- Campo para a pessoa colocar o telefone-->
+            <label for="telefone">Telefone</label>:</label><br>
+            <input type="telefone" id="telefone" name="telefone" required><br><br>
+
+            <!-- Campo para colocar mensagem -->
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+            <!-- Botão para enviar o formulário -->
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <!-- Rodapé com meu nome e ano -->
+    <footer>
+        <p>&copy; 2025 - [Seu Nome]</p>
+    </footer>
+</body>
+</html>
